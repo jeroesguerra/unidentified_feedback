@@ -1,0 +1,20 @@
+current directory: /Users/jeroesguerra/Sites/unidentified_feedback/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+/Users/jeroesguerra/.asdf/installs/ruby/3.2.2/bin/ruby extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /Users/jeroesguerra/Sites/unidentified_feedback/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230625-47529-sp2qf1 sitelibdir\=./.gem.20230625-47529-sp2qf1 clean
+
+current directory: /Users/jeroesguerra/Sites/unidentified_feedback/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230625-47529-sp2qf1 sitelibdir\=./.gem.20230625-47529-sp2qf1
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/jeroesguerra/Sites/unidentified_feedback/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230625-47529-sp2qf1 sitelibdir\=./.gem.20230625-47529-sp2qf1 install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20230625-47529-sp2qf1/racc
+
+current directory: /Users/jeroesguerra/Sites/unidentified_feedback/vendor/bundle/ruby/3.2.0/gems/racc-1.7.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20230625-47529-sp2qf1 sitelibdir\=./.gem.20230625-47529-sp2qf1 clean
