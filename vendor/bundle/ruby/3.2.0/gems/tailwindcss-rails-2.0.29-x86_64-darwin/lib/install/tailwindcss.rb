@@ -8,7 +8,7 @@ if APPLICATION_LAYOUT_PATH.exist?
   ERB
 
   if File.open(APPLICATION_LAYOUT_PATH).read =~ /<body>\n\s*<%= yield %>\n\s*<\/body>/
-    insert_into_file APPLICATION_LAYOUT_PATH.to_s, %(    <main class="container mx-auto mt-28 px-5 flex">\n  ), before: CENTERING_CONTAINER_INSERTION_POINT
+    insert_into_file APPLICATION_LAYOUT_PATH.to_s, %(    <main class="container mx-auto mt-28 px-5">\n  ), before: CENTERING_CONTAINER_INSERTION_POINT
     insert_into_file APPLICATION_LAYOUT_PATH.to_s, %(\n    </main>),  after: CENTERING_CONTAINER_INSERTION_POINT
   end
 else
