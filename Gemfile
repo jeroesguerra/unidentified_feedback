@@ -67,3 +67,6 @@ group :development do
   # gem "spring"
 end
 
+gem "oauth"
+gem "typhoeus"
+gem 'figaro', git: 'https://github.com/ryanckulp/figaro'
